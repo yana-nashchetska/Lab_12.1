@@ -1,0 +1,12 @@
+﻿  UnitTest_12.1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(69,81): error C2338: static_assert failed: 'Test writer must define specialization of ToString<Q* q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<struct Elem>(struct Elem *).'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(141,1): message : see reference to function template instantiation 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<Elem>(Q *)' being compiled
+          with
+          [
+              Q=Elem
+          ]
+D:\АП\Лабораторні роботи\Lab_12\Lab_12.1\UnitTest_12.1\UnitTest_12.1.cpp(44,1): message : see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<Elem*>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=Elem *
+          ]
